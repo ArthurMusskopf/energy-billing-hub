@@ -26,8 +26,8 @@ export function Sidebar() {
   return <aside className="fixed left-0 top-0 z-40 h-screen w-64 bg-sidebar">
       <div className="flex h-full flex-col bg-sidebar text-sidebar-foreground">
         {/* Logo */}
-        <div className="flex h-32 items-center justify-start py-4 pl-2 pr-4 border-b border-sidebar-border/30 bg-white">
-          <img src={acerLogo} alt="ACER - Associação Catarinense de Energias Renováveis" className="h-24 w-full object-contain object-left" />
+        <div className="flex h-28 items-center justify-center py-2 px-0 border-b border-sidebar-border/30 bg-white">
+          <img src={acerLogo} alt="ACER - Associação Catarinense de Energias Renováveis" className="h-full w-full object-cover" />
         </div>
 
         {/* Navigation */}
